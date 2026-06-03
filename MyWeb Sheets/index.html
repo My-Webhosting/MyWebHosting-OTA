@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MyWeb Sheets Beta</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background:#f8fafc;
+    color:black;
+    font-family:Arial, sans-serif;
+}
+
+.topbar{
+    width:100%;
+    height:80px;
+    display:flex;
+    align-items:center;
+    padding:0 30px;
+    background:white;
+    border-bottom:1px solid #dbeafe;
+}
+
+.logo{
+    width:58px;
+    height:58px;
+}
+
+.wrapper{
+    width:100%;
+    min-height:calc(100vh - 80px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+}
+
+.container{
+    width:100%;
+    max-width:900px;
+    text-align:center;
+}
+
+.title{
+    font-size:56px;
+    font-weight:800;
+    margin-bottom:10px;
+    color:black;
+}
+
+.subtitle{
+    font-size:20px;
+    color:black;
+    margin-bottom:40px;
+}
+
+.card{
+    background:white;
+    border-radius:24px;
+    padding:40px;
+    margin-bottom:30px;
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card h2{
+    color:black;
+}
+
+.card p{
+    color:black;
+}
+
+.download-btn{
+    display:inline-block;
+    padding:20px 50px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:16px;
+    font-size:24px;
+    font-weight:bold;
+    transition:0.2s;
+}
+
+.download-btn:hover{
+    background:#1d4ed8;
+    transform:scale(1.04);
+}
+
+.features{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    margin-top:25px;
+}
+
+.feature{
+    background:#f1f5f9;
+    padding:16px;
+    border-radius:14px;
+    font-size:18px;
+    color:black;
+}
+
+.code{
+    background:#e2e8f0;
+    color:black;
+    padding:22px;
+    border-radius:16px;
+    font-size:20px;
+    font-family:monospace;
+    margin-top:20px;
+    overflow:auto;
+}
+
+.screenshot{
+    width:100%;
+    border-radius:18px;
+    margin-top:25px;
+    border:1px solid #cbd5e1;
+}
+
+.footer{
+    margin-top:40px;
+    color:black;
+    font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- TOP LEFT LOGO -->
+
+<div class="topbar">
+
+<img
+class="logo"
+src="assets/myweb2.png"
+alt="MyWeb Logo"
+>
+
+</div>
+
+<div class="wrapper">
+
+<div class="container">
+
+<!-- TITLE -->
+
+<div class="title">
+MyWeb Sheets Beta
+</div>
+
+<div class="subtitle">
+Experimental spreadsheet engine with circular formulas
+and iterative calculations
+</div>
+
+<!-- DOWNLOAD -->
+
+<div class="card">
+
+<h2>Download Beta</h2>
+
+<p>
+Latest public beta build of MyWeb Sheets.
+</p>
+
+<br>
+
+<a
+class="download-btn"
+href="MyWeb-Sheets-NO-OTA.exe"
+>
+
+Download Beta
+
+</a>
+
+</div>
+
+
+<div class="footer">
+
+MyWeb Hosting © 2026        This download site is a prototype made in like 5 mins
+
+</div>
+
+</body>
+</html>
